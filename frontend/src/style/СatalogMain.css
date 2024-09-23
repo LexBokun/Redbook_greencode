@@ -1,0 +1,89 @@
+.card {
+  padding: 20px;
+  white-space: pre-wrap;
+
+  margin-bottom: 100px;
+
+}
+
+h2 {
+  width: 40%;
+  /* font-size: 36px; */
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.cart_kol1, .cart_kol2 {
+  background-color: #769929;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.cart_kol1 {
+  padding: 10px 5px;
+}
+
+.cart_kol2 {
+  margin-left: 15px;
+  padding: 10px 10px;
+}
+
+.hibernation {
+  margin-top: 5px;
+  padding: 10px 10px;
+  width: 85%;
+  border: 5px solid #769929;
+  border-radius: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-image {
+  width: 390px;
+  height: 250px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.card-images {
+  width: 280px;
+  height: 240px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.carousel-indicators {
+
+  gap: 20px;
+  & [data-bs-target] {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  .active {
+    background-color: #8BB82A;
+  }
+}
+
+.but {
+
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1px;
+}
